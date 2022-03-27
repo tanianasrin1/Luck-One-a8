@@ -40,7 +40,7 @@ const Products = () => {
               }
             </div>
             <div className='container'>
-                <h3>Choosing Item</h3>
+                <h1 className='Choose-item'>Choosing Item</h1>
                 {/* <p>Item:  {cart.length} </p> */}
                 { 
                    cart.map(item => <Cart key = {item.id}  item=  {item} ></Cart>)

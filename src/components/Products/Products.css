@@ -4,6 +4,10 @@
     
 }
 
+.Choose-item{
+    color: rgb(150, 209, 236);
+}
+
 .products-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
