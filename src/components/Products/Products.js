@@ -47,8 +47,8 @@ const Products = () => {
                 }
 
                 <div className='btn-info'>
-                <button onClick={randomChoose}>Choose 1 For Me</button>
-                <button onClick= {chooseAgain} >Choose Again</button>
+                <button className='btn-style' onClick={randomChoose}>Choose 1 For Me</button> <br /> <br />
+                <button className='btn-style' onClick= {chooseAgain} >Choose Again</button>
                 <p>  {random.name} </p>
                 </div>
             </div>
