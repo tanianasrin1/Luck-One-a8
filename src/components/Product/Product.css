@@ -42,3 +42,7 @@
 .btn-cart:hover{
     background-color: rgb(150, 209, 236);
 }
+
+.btn-text{
+    margin-right: 5px;
+}
