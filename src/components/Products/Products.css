@@ -27,3 +27,11 @@
     border-radius: 20px;
     background-color: violet;
 }
+
+@media only screen and (max-width: 688px){
+    .products-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+    
+
