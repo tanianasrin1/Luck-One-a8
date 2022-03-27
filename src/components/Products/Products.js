@@ -32,9 +32,9 @@ const Products = () => {
         <div className='shop-container'>
             <div className='products-container'>
               {
-                  products.map(product => <Product
-                     key= {product.id} 
+                  products.map((product,idx) => <Product
                      product = {product}
+                     key= {idx} 
                      handlerAddToCart = {handlerAddToCart }
                      ></Product>)
               }
@@ -43,7 +43,7 @@ const Products = () => {
                 <h1 className='Choose-item'>Choosing Item</h1>
                 {/* <p>Item:  {cart.length} </p> */}
                 { 
-                   cart.map(item => <Cart key = {item.id}  item=  {item} ></Cart>)
+                   cart.map((item,idx) => <Cart key = {idx}  item=  {item} ></Cart>)
                 }
 
                 <div className='btn-info'>
