@@ -2,7 +2,7 @@
 
 ## [Private Repo Link](https://fascinating-sundae-5a1be9.netlify.app/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Click here to create private repo: https://fascinating-sundae-5a1be9.netlify.app/
 
 ## Available Scripts
 
